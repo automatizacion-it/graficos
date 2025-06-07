@@ -14,5 +14,66 @@
         "disabled": false,
         "info": "",
         "env": []
+    },
+    {
+        "id": "a91e1e0f0d954599",
+        "type": "ui_chart",
+        "z": "458e92eddefbdbe6",
+        "name": "",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "label": "chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "",
+        "ymax": "",
+        "removeOlder": 1,
+        "removeOlderPoints": "",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1F77B4",
+            "#AEC7E8",
+            "#FF7F0E",
+            "#2CA02C",
+            "#98DF8A",
+            "#D62728",
+            "#FF9896",
+            "#9467BD",
+            "#C5B0D5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 350,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b8ed6c6bf97c419b",
+        "type": "ping",
+        "z": "458e92eddefbdbe6",
+        "protocol": "Automatic",
+        "mode": "timed",
+        "name": "xxxx",
+        "host": "www.google.com",
+        "timer": "2",
+        "inputs": 0,
+        "x": 150,
+        "y": 100,
+        "wires": [
+            [
+                "a91e1e0f0d954599"
+            ]
+        ]
     }
 ]
