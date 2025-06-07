@@ -40,6 +40,14 @@
         "env": []
     },
     {
+        "id": "864764c48500af1d",
+        "type": "tab",
+        "label": "Flujo 4",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "a16e9d1478d5a48f",
         "type": "ui_tab",
         "name": "Home",
@@ -814,6 +822,36 @@
         "wires": [
             [],
             [],
+            []
+        ]
+    },
+    {
+        "id": "036c6394a53a3696",
+        "type": "ui_colour_picker",
+        "z": "864764c48500af1d",
+        "name": "",
+        "label": "",
+        "group": "",
+        "format": "hex",
+        "outformat": "string",
+        "showSwatch": true,
+        "showPicker": false,
+        "showValue": false,
+        "showHue": false,
+        "showAlpha": false,
+        "showLightness": true,
+        "square": "false",
+        "dynOutput": "false",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "x": 350,
+        "y": 160,
+        "wires": [
             []
         ]
     }

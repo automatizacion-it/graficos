@@ -2,7 +2,11 @@
     "name": "graficos",
     "description": "graficos y dashboard",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-ui-led": "0.4.11",
+        "node-red-dashboard": "3.6.5",
+        "node-red-node-ping": "0.3.3"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
