@@ -1,1 +1,18 @@
-[]
+[
+    {
+        "id": "458e92eddefbdbe6",
+        "type": "tab",
+        "label": "Flujo 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "37006eeff7114470",
+        "type": "tab",
+        "label": "Flujo 2",
+        "disabled": false,
+        "info": "",
+        "env": []
+    }
+]
