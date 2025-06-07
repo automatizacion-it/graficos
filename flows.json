@@ -356,6 +356,25 @@
         "sessionExpiry": ""
     },
     {
+        "id": "609642bec2763ecb",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "6d09e61b08d99836",
+        "type": "ui_group",
+        "name": "colores",
+        "tab": "609642bec2763ecb",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
         "id": "a91e1e0f0d954599",
         "type": "ui_chart",
         "z": "458e92eddefbdbe6",
@@ -831,7 +850,7 @@
         "z": "864764c48500af1d",
         "name": "",
         "label": "",
-        "group": "",
+        "group": "6d09e61b08d99836",
         "format": "hex",
         "outformat": "string",
         "showSwatch": true,
@@ -843,8 +862,8 @@
         "square": "false",
         "dynOutput": "false",
         "order": 0,
-        "width": 0,
-        "height": 0,
+        "width": "6",
+        "height": "6",
         "passthru": true,
         "topic": "topic",
         "topicType": "msg",
